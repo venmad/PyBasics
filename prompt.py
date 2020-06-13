@@ -23,7 +23,7 @@ def c():
     z = x + y
     print(z)
 
-
+# calling the above functions
 a()
 b()
 #c()
