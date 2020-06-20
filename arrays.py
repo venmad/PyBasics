@@ -66,13 +66,14 @@ def e():
             myarr.append(arr[i])
     print(myarr)
 
+# Printing the array in reverse order without built in function
 def f():
     arr = array('i',[1, 5, 85, 65])
     myarr = array(arr.typecode, [])
     for i in range(len(arr)-1,-1,-1):
             myarr.append(arr[i])
     print(myarr)
-    arr.reverse()
+    arr.reverse() # with built in function
     print(arr)
 
 
@@ -81,5 +82,5 @@ def f():
 # b()
 # c()
 # d()
-e()
-# f()
+#e()
+f()
